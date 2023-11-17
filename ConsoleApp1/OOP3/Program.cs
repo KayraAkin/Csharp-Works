@@ -21,7 +21,7 @@ namespace OOP3
             BasvuruManager basvuruManager = new BasvuruManager();
             basvuruManager.BasvuruYap(tasitKrediManager, fileLoggerService);
 
-            List<IKrediManager> krediler = new List<IKrediManager>() {ihtiyacKrediManager, tasitKrediManager };
+            List<IKrediManager> krediler = new List<IKrediManager>() { ihtiyacKrediManager, tasitKrediManager };
 
             //basvuruManager.KrediOnBilgilendirmesiYap(krediler);
 
